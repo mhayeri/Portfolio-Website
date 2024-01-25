@@ -23,16 +23,21 @@ const Home = () => {
                         Computer Science from San Diego State University.
                     </p>
                     <div>
-                        <button className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
-                            Resume
-                            <span>
-                                <FaFileDownload className="ml-1" />
-                            </span>
-                        </button>
+                        <a
+                            href="/MustafaResume.pdf"
+                            download="Mustafa_Hayeri_Resume.pdf"
+                        >
+                            <button className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer hover:scale-105 duration-300">
+                                Resume
+                                <span>
+                                    <FaFileDownload className="ml-1" />
+                                </span>
+                            </button>
+                        </a>
                     </div>
                 </div>
 
-                <div className="w-64 h-64 mx-auto overflow-hidden ">
+                <div className="w-72 h-72 mx-auto overflow-hidden ">
                     <img src={profile} alt="profile" />
                 </div>
             </div>
