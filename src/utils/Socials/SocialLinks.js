@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram, FaFacebook } from "react-icons/fa";
 
 export const socials = [
     {
@@ -21,5 +21,12 @@ export const socials = [
         social_media_url: "https://www.instagram.com/mustafahayeri/",
         social_media_colorway: "bg-gradient-to-r from-purple-500 to-pink-500",
         social_media_icon: FaInstagram,
+    },
+    {
+        id: 4,
+        social_media_name: "Facebook",
+        social_media_url: "https://www.facebook.com/mustafa.hayeri",
+        social_media_colorway: "bg-gradient-to-r from-blue-500 to-blue-700",
+        social_media_icon: FaFacebook,
     },
 ];
