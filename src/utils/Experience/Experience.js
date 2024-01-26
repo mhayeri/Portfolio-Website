@@ -14,7 +14,6 @@ import vscode from "../../assets/logos/vs-code.png";
 
 import leidos from "../../assets/images/Leidos.png";
 import northrop from "../../assets/images/northrop.png";
-import sheekmedia from "../../assets/images/sheekmedia.png";
 
 export const experience = [
     {
