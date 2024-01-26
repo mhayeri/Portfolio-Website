@@ -37,7 +37,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="w-72 h-72 mx-auto overflow-hidden ">
+                <div className="w-60 h-60 md:w-72 md:h-72 mx-auto overflow-hidden">
                     <img src={profile} alt="profile" />
                 </div>
             </div>

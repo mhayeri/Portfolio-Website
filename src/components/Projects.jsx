@@ -30,7 +30,7 @@ const Projects = () => {
                                 <img
                                     src={project_image}
                                     alt=""
-                                    className="rounded-md w-full h-full duration-200 hover:scale-105"
+                                    className="rounded-md w-full h-full duration-200 hover:scale-105 object-cover"
                                     style={{
                                         width: "100%",
                                         height: "250px",
