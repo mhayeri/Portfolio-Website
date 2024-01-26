@@ -18,7 +18,7 @@ export const projects = [
         project_url: "https://github.com/mhayeri/Netflix-Clone",
         project_name: "Netflix Clone",
         project_description:
-            "A Netflix clone built using React.js, Webhooks, CSS, Firestore, and Stripe Checkout. Movie data is fetched from the TMDB API.",
+            "A Netflix clone built using React.js, Webhooks, CSS, Firestore, and Stripe Checkout. Movie data is fetched from the TMDb API.",
     },
     {
         id: 3,
@@ -26,7 +26,7 @@ export const projects = [
         project_url: "https://github.com/mhayeri/Portfolio-Website",
         project_name: "Portfolio Website",
         project_description:
-            "A portfolio website built using React.js and Tailwind CSS. Showcases my experience, skills and projects.",
+            "A portfolio website built using React.js and Tailwind CSS that showcases my work experience, technical skills and projects.",
     },
     {
         id: 4,
