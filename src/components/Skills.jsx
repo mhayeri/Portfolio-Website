@@ -5,13 +5,13 @@ import { skills } from "../utils/Skills/Skills";
 const Skills = () => {
     return (
         <div
-            name="Skills"
+            name="SKILLS"
             className="bg-gradient-to-b from-black to-gray-800 w-full"
         >
-            <div className="max-w-screen-xl mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+            <div className="max-w-screen-xl mx-auto p-4 flex flex-col justify-center w-full h-full text-white pt-5">
                 <div className=" pt-8 pb-8 text-center">
-                    <p className="text-6xl font-bold border-b-4 border-gray-500 p-2 inline my-4">
-                        Skills
+                    <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline my-4">
+                        SKILLS
                     </p>
                 </div>
 

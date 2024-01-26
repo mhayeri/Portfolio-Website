@@ -1,1 +1,1 @@
-export const Links = ["Home", "Experience", "Skills", "Projects", "Contact"];
+export const Links = ["HOME", "EXPERIENCE", "SKILLS", "PROJECTS", "CONTACT"];

@@ -5,13 +5,13 @@ import { experience } from "../utils/Experience/Experience";
 const Experience = () => {
     return (
         <div
-            name="Experience"
+            name="EXPERIENCE"
             className="bg-gradient-to-b from-gray-800 to-black w-full"
         >
             <div className="max-w-screen-xl mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
                 <div className=" pt-8 pb-8 text-center">
-                    <p className="text-6xl font-bold border-b-4 border-gray-500 p-2 inline my-4">
-                        Experience
+                    <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline my-4">
+                        EXPERIENCE
                     </p>
                 </div>
 
@@ -59,7 +59,7 @@ const Experience = () => {
                                     ))}
                                 </div>
                                 <div className="xl:flex flex-col">
-                                    <ul className="mt-3 list-decimal">
+                                    <ul className="mt-3">
                                         {job_description.map((desc, index) => {
                                             return (
                                                 <li

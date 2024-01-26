@@ -3,13 +3,13 @@ import React from "react";
 const Contact = () => {
     return (
         <div
-            name="Contact"
+            name="CONTACT"
             className="p-4 text-white bg-gradient-to-b from-black to-gray-800 w-full h-screen"
         >
             <div className="flex flex-col p-4 justify-center max-w-screen-xl mx-auto h-full">
                 <div className="pb-8 text-center">
-                    <p className="text-6xl font-bold inline border-b-4 border-gray-500">
-                        Contact
+                    <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+                        CONTACT
                     </p>
                     <p className="py-6">Get in touch with me!</p>
                 </div>
