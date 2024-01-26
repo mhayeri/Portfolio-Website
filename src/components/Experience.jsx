@@ -29,7 +29,7 @@ const Experience = () => {
                         }) => (
                             <div
                                 key={id}
-                                className={`shadow-md hover:scale-105 duration-500 py-8 px-4 mb-8 rounded-lg ${style} flex flex-col flex-grow`}
+                                className={`z-40 shadow-md hover:scale-105 duration-500 py-8 px-4 mb-8 rounded-lg ${style} flex flex-col flex-grow h-auto`}
                             >
                                 <div className="flex">
                                     <p className="text-2xl font-bold">
@@ -38,7 +38,7 @@ const Experience = () => {
                                     <img
                                         src={employer_logo}
                                         alt=""
-                                        className="w-20"
+                                        className="w-20 hidden md:flex"
                                     />
                                 </div>
                                 <div className="my-4">
@@ -58,14 +58,13 @@ const Experience = () => {
                                         />
                                     ))}
                                 </div>
-                                {/* desc */}
                                 <div className="xl:flex flex-col">
-                                    <ul className="mt-3 whitespace-pre-wrap">
+                                    <ul className="mt-3 list-decimal">
                                         {job_description.map((desc, index) => {
                                             return (
                                                 <li
                                                     key={index}
-                                                    className="flex justify-between items-center h-14 "
+                                                    className="flex justify-between items-center h-fit py-2"
                                                 >
                                                     {desc}
                                                 </li>
@@ -73,11 +72,9 @@ const Experience = () => {
                                         })}
                                     </ul>
                                 </div>
-                                {/* desc */}
                             </div>
                         )
                     )}
-                    {/* END MAP  */}
                 </div>
             </div>
         </div>
