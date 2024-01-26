@@ -25,13 +25,16 @@ const Projects = () => {
                         }) => (
                             <div
                                 key={id}
-                                className="shadow-md shadow-gray-600 rounded-lg overflow-hidden"
+                                className="shadow-md shadow-gray-600 rounded-lg overflow-hidden flex flex-col"
                             >
                                 <img
                                     src={project_image}
                                     alt=""
-                                    className="rounded-md w-full h-full duration-200 hover:scale-105 object-cover"
-                                    style={{ width: "100%", height: "250px" }}
+                                    className="rounded-md w-full h-full duration-200 hover:scale-105"
+                                    style={{
+                                        width: "100%",
+                                        height: "250px",
+                                    }}
                                 />
                                 <div className="p-2 flex-grow flex flex-col justify-between">
                                     <div>
