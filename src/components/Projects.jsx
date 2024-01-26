@@ -5,7 +5,7 @@ import { projects } from "../utils/Projects/Projects";
 const Projects = () => {
     return (
         <div
-            name="projects"
+            name="Projects"
             className="bg-gradient-to-b from-gray-800 to-black w-full text-white pb-8"
         >
             <div className="max-w-screen-xl p-4 mx-auto flex flex-col justify-center w-full h-full">

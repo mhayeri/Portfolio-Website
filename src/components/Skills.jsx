@@ -5,7 +5,7 @@ import { skills } from "../utils/Skills/Skills";
 const Skills = () => {
     return (
         <div
-            name="skills"
+            name="Skills"
             className="bg-gradient-to-b from-black to-gray-800 w-full"
         >
             <div className="max-w-screen-xl mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
