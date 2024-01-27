@@ -6,9 +6,9 @@ const Home = () => {
     return (
         <div
             name="HOME"
-            className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+            className="w-full bg-gradient-to-b from-black via-black to-gray-800"
         >
-            <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-screen px-4 md:flex-row ">
+            <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center md:h-screen px-4 md:flex-row ">
                 <div className="flex flex-col justify-center my-10 sm:my-20 px-4 mt-32 md:mt-0">
                     <h2 className="text-4xl sm:text-6xl font-bold text-white">
                         Software Engineer
@@ -64,6 +64,7 @@ const Home = () => {
                 <div className="w-48 h-48 md:w-72 md:h-72 mx-auto overflow-hidden">
                     <img src={profile} alt="profile" />
                 </div>
+                <div className="h-8"></div>
             </div>
         </div>
     );

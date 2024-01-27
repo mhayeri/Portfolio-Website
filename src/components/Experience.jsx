@@ -54,7 +54,7 @@ const Experience = () => {
                                             key={index}
                                             src={tool}
                                             alt="tech"
-                                            className="w-10"
+                                            className="w-7 md:w-10"
                                         />
                                     ))}
                                 </div>
