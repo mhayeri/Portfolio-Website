@@ -15,10 +15,10 @@ export const projects = [
     {
         id: 2,
         project_image: Netflix,
-        project_url: "https://github.com/mhayeri/Netflix-Clone",
+        project_url: "https://github.com/mhayeri/React-Netflix-Clone",
         project_name: "Netflix Clone",
         project_description:
-            "A Netflix clone built using React.js, Webhooks, CSS, Firestore, and Stripe Checkout. Movie data is fetched from the TMDb API.",
+            "A Netflix clone built using React.js, Tailwind CSS, Webhooks, and Firestore. Movie data is fetched from the TMDb API. Allows users to create an account and favorite shows/movies.",
     },
     {
         id: 3,

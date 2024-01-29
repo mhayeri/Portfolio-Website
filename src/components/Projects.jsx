@@ -45,7 +45,7 @@ const Projects = () => {
                                             {project_description}
                                         </p>
                                     </div>
-                                    <div className="flex items-center justify-center mt-auto">
+                                    <div className="flex items-center justify-center">
                                         <a
                                             href={project_url}
                                             target="_blank"
