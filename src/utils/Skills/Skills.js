@@ -10,6 +10,7 @@ import intellij from "../../assets/logos/intellij.png";
 import java from "../../assets/logos/java.png";
 import javascript from "../../assets/logos/javascript.png";
 import jenkins from "../../assets/logos/jenkins.png";
+import postman from "../../assets/logos/postman.png";
 import jira from "../../assets/logos/jira.png";
 import mysql from "../../assets/logos/mysql.png";
 import nodejs from "../../assets/logos/node-js.png";
@@ -101,48 +102,54 @@ export const skills = [
     },
     {
         id: 14,
+        skill_logo: postman,
+        skill_name: "Postman",
+        skill_style: "shadow-orange-500",
+    },
+    {
+        id: 15,
         skill_logo: git,
         skill_name: "Git",
         skill_style: "shadow-orange-500",
     },
     {
-        id: 15,
+        id: 16,
         skill_logo: github,
         skill_name: "GitHub",
         skill_style: "shadow-gray-500",
     },
     {
-        id: 16,
+        id: 17,
         skill_logo: gitlab,
         skill_name: "GitLab",
         skill_style: "shadow-orange-500",
     },
     {
-        id: 17,
+        id: 18,
         skill_logo: jira,
         skill_name: "Jira",
         skill_style: "shadow-blue-500",
     },
     {
-        id: 18,
+        id: 19,
         skill_logo: jenkins,
         skill_name: "Jenkins",
         skill_style: "shadow-blue-500",
     },
     {
-        id: 19,
+        id: 20,
         skill_logo: intellij,
         skill_name: "IntelliJ",
         skill_style: "shadow-red-500",
     },
     {
-        id: 20,
+        id: 21,
         skill_logo: pycharm,
         skill_name: "PyCharm",
         skill_style: "shadow-green-500",
     },
     {
-        id: 21,
+        id: 22,
         skill_logo: vscode,
         skill_name: "Visual Studio Code",
         skill_style: "shadow-blue-500",
