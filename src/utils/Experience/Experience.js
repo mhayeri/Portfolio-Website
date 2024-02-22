@@ -20,7 +20,7 @@ export const experience = [
         id: 1,
         employer_name: "Leidos",
         employer_logo: leidos,
-        job_title: "Full Stack Software Engineer",
+        job_title: "Software Engineer",
         job_description: [
             "Collaborated closely with cross-functional teams and contributed to the implementation of multiple features within a large-scale application using Java and SmartGWT, resulting in a 15% increase in project efficiency.",
             "Facilitated the development, implementation, and demonstration of the DIAS File Parser, a pivotal feature designed for specialized file types using Java and PostgreSQL, ensuring rigorous validation of incoming files.",
